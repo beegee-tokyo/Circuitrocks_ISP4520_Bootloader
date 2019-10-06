@@ -1,0 +1,17 @@
+{
+  "autorun": false,
+  "terminals": [
+    {
+      "name": "Clean",
+      "description": "Clean project",
+      "focus": true,
+      "command": "make BOARD=alora_isp4520 clean"
+    },
+    {
+      "name": "Make",
+      "description": "Make project",
+      "focus": true,
+      "command": "make BOARD=alora_isp4520 all genhex combinehex genpkg"
+    }
+  ]
+}

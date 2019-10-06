@@ -1,0 +1,16 @@
+{
+  "commands": [
+    {
+      "text": "Clean",
+      "command": "terminals.runTerminalByName",
+      "arguments": ["Clean"],
+      "tooltip": "Clean the project"
+    },
+    {
+      "text": "Make",
+      "command": "terminals.runTerminalByName",
+      "arguments": ["Make"],
+      "tooltip": "Make HEX"
+    }
+  ]
+}
